@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html>
-<body>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <h1 align="center">Leonard Brakefield</h1>
 
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
+<head>
+    <meta charset="utf-8">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="stylesheet.css">
+   <title>Brake's Place!</title>
+
+<style type="text/css">
+label {
+       float: left;
+       width: 150px;
+       text-align: right;
+       padding-right: 80px;
+       margin-top: 39px;
+       clear: left;
+     }
+   input, textarea { margin-top: 60px;}
+   #simpleForm{
+   background-color: #red;
+   width: 80%;
+   }
+   #theSubmit{
+   margin-left: 210px;
+   padding: 15px;
+   }
+
+</style>
+</head>
+
+<body>
+
+<h1 align="center">Leonard Brakefield</h1>
+  <div class="container">
+
+
+
+
+  <a href="index.html">Home</a><br/><br/>
+  <a href="about.html">About</a><br/><br/>
+  <a href="contact.html">Contact</a><br/><br/>
 
   <hr />
-  <h2 align="center">Heres where you can reach me!<h2>
+  <h2 align="center">Contact Me!<h2>
 
-  <form action=leonardb1104@hotmail.com class="contact">
-  First  and Last Name :<br>
-  <input type="text">
-  <br>
-  Email address:<br>
-  <input type="email address">
-  <br><br>
+<div class="carrot"></div>
 
-</form>
+<form id="simpleform">
+    <div>
+<label for="myName">Name:</label>
+  <input type="text" name="myName" id="myName">
+    </div>
 
 
-  <!-- Start of the Form -->
-  <form action="" method="">
+    <div>
+  <label for="email">Email:</label>
+  <input type="text" name="email" id="email">
+   </div>
 
+    <div>
+  <label for="comments">Comments:</label>
+<textarea name="comments" id="comments" rows="25" cols="65"></textarea>
+   </div>
 
-       Please let me know what you think about my website<br>
-       <textarea rows="25" cols="65"></textarea>
-       <input type="submit" value="Submit">
+   <div id="theSubmit">
+      <input type="submit" value="Submit">
+    </div>
 
-  </form>
-  <!-- End of The Form -->
+ </form>
 
 
 </body>

@@ -1,32 +1,130 @@
 body {
-  background: purple;
-  font-family: arial;
+  background: grey;
+
 }
-h1{
-  font-size: 40px;
+
+<head>
+
+
+@font-face {
+     font-family: sm;
+     src: url('..Brakefield/ICELAND.ttf')
 }
+
+
+
+h1 {
+  font-size: 60px;
+  font-family: ICELAND.ttf;
+}
+
 a {
-  color: blue;
+  color: black;
   text-decoration: underline;
 }
-a: hover {
-  color: #000000;
-  text-decoration: none;
-}
-h2 {font-size: 30px;
+
+
+h2 {font-size: 40px;
 }
 p {
   font-size: 20px;
+  font-family: sm;
+}
+h3 {font-size: 35px;
+}
+
+h4{font-size: 35px;
+}
+
+h5{font-size: 25px;
 }
 
 contact {
   display:
+  }
 
-
+  img{
+    width: 30%;
+    margin: 10px auto;
+    display: inline-flex;
+    border-radius: 10px;
+    box-shadow: 30px;
 }
 
-img{
-  width: 30%;
-  margin: 3px auto;
-  display: grid;
+a:link{
+   font-size : 20px;
+}
+
+a:visited{
+   color : ;
+}
+
+a:hover{
+  font-size : 25px;
+  background-color : blue;
+}
+
+a:focus{
+  background : green;
+}
+
+a:active{
+  color : green;
+  font-weight : 20;
+}
+
+
+</head>
+
+
+.carrot {
+  background-image: url(http://icons.iconarchive.com/icons/visualpharm/icons8-metro-style/512/Kitchen-Carrot-icon.png);
+  background-size: contain;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 30px auto;
+  position: relative;
+  opacity: 0.3; }
+  .carrot:before, .carrot:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px; }
+  .carrot:before {
+    left: 100%;
+    margin-left: 20px; }
+  .carrot:after {
+    right: 100%;
+    margin-right: 20px; }
+
+.container {
+  margin: 0 auto;
+  background: grey;
+  padding: 50px;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 960px;
+  *zoom: 1; }
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  .container:after {
+    clear: both; }
+
+.column {
+  float: center;
+  width: 100%;
+  box-sizing: border-radius: 10px;
+  padding: 20px; }
+
+@media (max-width: 960px) {
+  .column {
+    float: none;
+    width: auto; }
 }
